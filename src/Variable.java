@@ -26,6 +26,18 @@ public class Variable {
         System.out.println("b * c= "  + ( b * c));
         System.out.println("b / c= "  + ( b / c));
 
+        //if i dont declare variable, i cannot use it.
+
+       // int d = 0.5;   //error because 0.5 is not integer
+        int e = (int) 7.5;
+        System.out.println(e); // 7 only integer part will be printed at result = 7 ;
+
+        double f= 0.5;
+        int g = (int)(f + 0.5);
+        System.out.println(g);
+
+
+
 
 
 
