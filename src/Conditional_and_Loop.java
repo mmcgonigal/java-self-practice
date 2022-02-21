@@ -87,6 +87,14 @@ public class Conditional_and_Loop {
             }
         }
 
+        for(int c = 0; c <= 10; c++){
+            for(int b = 0; b <= 10; b++){
+                System.out.print("*");
+            }
+            System.out.println(" ");
+        }
+
+
 
 
 
