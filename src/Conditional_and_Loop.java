@@ -94,6 +94,13 @@ public class Conditional_and_Loop {
             System.out.println(" ");
         }
 
+        for(int z = 0; z <= 10; z++){
+            for(int w = 0; w<z; w++){
+                System.out.print("*");
+            }
+            System.out.println(" ");
+        }
+
 
 
 
