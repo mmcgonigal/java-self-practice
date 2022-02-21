@@ -43,6 +43,8 @@ public class Data_type {
         System.out.println(subString);//J
         System.out.println(subString2);//hn
 
+        // my opinion  : other data types are primitive but String is class because it has method, that can be used with String..
+
 
 
 
