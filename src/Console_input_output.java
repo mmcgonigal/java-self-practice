@@ -20,7 +20,7 @@ public class Console_input_output {
                 System.out.println(scan.nextInt() * 100);
             }
         } catch (FileNotFoundException e) {
-            System.out.println("error has occurred ");
+            System.out.println("error has occurred");
         }
 
 
