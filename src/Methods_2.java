@@ -63,6 +63,9 @@ public class Methods_2 {
         System.out.println(factorialFor(5));
         System.out.println(factorialRecursion(5));
         System.out.println("fibonacci's 5 th element is : " +  fibonacci(5));
+        System.out.println();
+
+
 
     }
 }
