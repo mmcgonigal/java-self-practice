@@ -26,7 +26,7 @@ public class Array {
         for(int i = 0; i < 100; i++){
             newArray[i] = (int)(Math.random() * 100 + 1) ;
             // Math.random() creates random floats of 0.xx ~ 1  0 <= x < 1
-            // therefore, multoply 100 to make it 1 <= x <100
+            // therefore, multiply 100 to make it 1 <= x <100
             // then plus 1 ---> 1 <= x < 101
         }
         int sum = 0;
