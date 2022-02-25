@@ -41,6 +41,10 @@ public class Person {
         this.height = height;
         this.weight = weight;
     }
+    public Person(String name,int age){
+        this.name=name;
+        this.age = age;
+    }
 
 
 }

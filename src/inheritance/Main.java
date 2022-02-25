@@ -48,8 +48,35 @@ public class Main {
         for(int i = 0 ; i < number; i++ ){
             class1[i].show();
         }
+        System.out.println("how many teachers in 1st grade?");
+        int num = scanner.nextInt();
+        Teacher [] teachers = new Teacher[number];
+        for( int x = 0; x < num ; x ++) {
+            String name;
+            String teacherID;
+            int age;
+            int year;
+            int salary;
+            System.out.println("name of a teacher?");
+            name = scanner.next();
+            System.out.println("Id of a teacher?");
+            teacherID = scanner.next();
+            System.out.println("teacher age ?");
+            age = scanner.nextInt();
+            System.out.println("years of education?");
+            year = scanner.nextInt();
+            System.out.println("Salary ?");
+            salary = scanner.nextInt();
+            teachers[x] = new Teacher(name, teacherID, age, year, salary);
+        }
+            for(int x =  0 ; x < num ; x ++){
+                teachers[x].show();
+            }
+
+        }
+
 
 
 
     }
-}
+

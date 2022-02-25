@@ -29,6 +29,13 @@ public class Teacher extends Person{
         this.salary = salary;
         this.year = year;
     }
+    public Teacher(String name, String teacherID, int age, int year, int salary ){
+        super(name,age);
+        this.teacherID = teacherID;
+        this.year = year;
+        this.salary = salary;
+
+    }
     public void show(){
         System.out.println("name of teacher" + getName());
         System.out.println("age of teacher" + getAge());
