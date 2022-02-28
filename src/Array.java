@@ -44,25 +44,32 @@ public class Array {
 //        System.out.println("100s of random number's average is " + sum /100);
 
 
-        Scanner scan =  new Scanner(System.in);
-        System.out.println("please set a size of array ! ");
-        int number = scan.nextInt();
-        int[] array  = new int[number];
-        for (int i = 0; i <number ; i++){
-            System.out.print("please input integer for each index.");
-            array[i] = scan.nextInt();
-        }
-        int result = -1;
-        for (int i = 0; i< number ; i ++){
-            result = max(result,array[i]);
-        }
-        System.out.println("the largest number is " + result + " .");
-//
-//        int[] arr = new int [100];
-//        for( int i = 0; i < number ; i ++){
-//            arr[i] = (int)(Math.random() *100 +1);
+//        Scanner scan =  new Scanner(System.in);
+//        System.out.println("please set a size of array ! ");
+//        int number = scan.nextInt();
+//        int[] array  = new int[number];
+//        for (int i = 0; i <number ; i++){
+//            System.out.print("please input integer for each index.");
+//            array[i] = scan.nextInt();
 //        }
-//
+//        int result = -1;
+//        for (int i = 0; i< number ; i ++){
+//            result = max(result,array[i]);
+//        }
+//        System.out.println("the largest number is " + result + " .");
+////
+        int[] arr = new int [100];
+        for( int i = 0; i < 100 ; i ++){
+            arr[i] = (int)(Math.random() *100 +1);
+            System.out.println(arr[i]);
+        }
+        int sum = 0 ;
+        for( int i = 0 ; i < 100; i ++){
+            sum += arr[i];
+            System.out.println(sum);
+        }
+        System.out.println("100 random numbers' average is " + sum/100);
+
 
 
 
