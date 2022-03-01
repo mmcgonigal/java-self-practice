@@ -10,6 +10,12 @@ public class Main extends Player {
         main.stop();
 
 
+        Dog dog = new Dog();
+        Cat cat =  new Cat();
+        dog.crying();
+        cat.crying();
+
+
     }
 
     @Override
@@ -29,4 +35,6 @@ public class Main extends Player {
         System.out.println(" stop   ");
 
     }
+
+
 }
