@@ -33,6 +33,14 @@ public class Two_Dimensional_Arrays {
                 System.out.print(array[i][j] + " ");
             }
             System.out.println();
+
+            int [][] arr = {
+                    {1,2,3},
+                    {4,5,6},
+                    {7,8,9}
+            };
+
+
         }
 
     }
