@@ -62,6 +62,12 @@ public class Array_Practice {
         String [] stArr = {"rock","paper","scissors"};
         System.out.println(Arrays.toString(stArr));
 
+        for(int i = 0; i < 10 ; i++ ){
+           // System.out.println((int)(Math.random()*3));
+            int temp = (int)(Math.random()*3);
+            System.out.println(stArr[temp]);
+        }
+
 
 
 
