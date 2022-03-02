@@ -34,6 +34,35 @@ public class Array_Practice {
         System.out.println(average );
 
 
+        int [] number = {79,88,91,33,100,51,55,95};
+        int max = number[0];
+        int min = number[0];
+        for(int i = 1 ; i < number.length; i++){
+            max = number[i];
+            if(number[i] > max){
+                max = number[i];
+            }else if (number[i] < min){
+                min = number[i];
+            }
+        }
+        System.out.println("the greatest element in number array is  " + max);
+        System.out.println("the smallest element in number array is " + min);
+
+
+        //shuffle
+        int[] numArr = {0,1,2,3,4,5,6,7,8,9};
+        System.out.println(Arrays.toString(numArr));
+        for (int i =  0; i < 100 ; i ++){
+            int n = (int)(Math.random()*10);
+            int temp =  numArr[0];
+            numArr[0] = numArr[n];
+            numArr[n] = temp;
+        }
+        System.out.println(Arrays.toString(numArr ));
+        String [] stArr = {"rock","paper","scissors"};
+        System.out.println(Arrays.toString(stArr));
+
+
 
 
     }
