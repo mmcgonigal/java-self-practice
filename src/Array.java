@@ -5,6 +5,7 @@ public class Array {
 //    public static int max(int a , int b){
 //        return (a > b) ? a : b ;
 //    }
+    //data type[] name of variable : int[] score; score = new int[5]; String[] name;
 
     //array
     //int[] name = new int[100];  -->0(start )~99(end)  1 array with 100 index length.
