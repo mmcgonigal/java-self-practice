@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.Arrays;
 public class Array {
     // how to create array ::
 //    //int [] nameOfArray = new int[ sizeOfArray" length " ex) 100 ] ;
@@ -69,6 +70,41 @@ public class Array {
             sum += arr[i];
         }
         System.out.println("100 random numbers' average is " + sum/100);
+
+        //copyOf , copyOfRange
+
+        int [] num = {0,1,2,3,4};
+        int [] num2 = Arrays.copyOf(num, num.length);
+        int [] num3 = Arrays.copyOf(num,3);
+        int [] num4 = Arrays.copyOf(num, 4);
+        int [] num5 = Arrays.copyOfRange(num,2,4);
+        int [] num6 = Arrays.copyOfRange(num,0,7);
+        System.out.println(Arrays.toString(num));
+        System.out.println(Arrays.toString(num2));
+        System.out.println(Arrays.toString(num3));
+        System.out.println(Arrays.toString(num4));
+        System.out.println(Arrays.toString(num5));
+        System.out.println(Arrays.toString(num6));
+
+
+
+        //equals() , deepEquals()
+        String[][] str2D ={
+                {"aaa","bbb"},
+                {"AAA","BBB"}};
+        String[][] str2D2 = {
+                {"aaa","bbb"},
+                {"AAA","BBB"}};
+
+
+        System.out.println(Arrays.equals(num,num2));
+        System.out.println(Arrays.deepEquals(str2D,str2D2));
+
+        String [][] str2Dcopy = Arrays.copyOf(str2D,str2D.length);
+        System.out.println(Arrays.deepToString(str2Dcopy));
+
+
+
 
 
 
