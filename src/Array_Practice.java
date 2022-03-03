@@ -34,11 +34,10 @@ public class Array_Practice {
         System.out.println(average );
 
 
-        int [] number = {79,88,91,33,100,51,55,95};
+        int [] number = {79,88,91,33,100,51,55};
         int max = number[0];
         int min = number[0];
         for(int i = 1 ; i < number.length; i++){
-            max = number[i];
             if(number[i] > max){
                 max = number[i];
             }else if (number[i] < min){
