@@ -1,8 +1,13 @@
 package StaticMethod_InstanceMethod;
 
 public class MyMath2 {
-    long a; // instance variable
-    long b; // instance variable
+    long a; // instance variable   : this.a
+    long b; // instance variable   : this.b
+
+    MyMath2( long a, long b){
+        this.a = a;
+        this.b = b;
+    }
 
 
     long add(){
