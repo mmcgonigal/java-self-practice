@@ -18,7 +18,7 @@ public class Data {
         Data d = new Data(); // instance of d
         d.x = 10;
         System.out.println("main() : x = " + d.x);
-//        change(d.x);
+        change(d.x);
         System.out.println("After calling method---> change(d.x) primitive param !! only readable");
         System.out.println("main() : x  = " + d.x); // because  change() 's parameter is primitive data type, it wont change/ effect the result
 
