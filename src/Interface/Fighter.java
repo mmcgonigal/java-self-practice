@@ -9,4 +9,9 @@ public class Fighter extends Unit implements Fightable{
         System.out.println("Attack " + f + " !");
     };
 
+    Fightable getFighter(){
+        Fighter f = new Fighter();
+        return (Fightable)f;
+    }
+
 }
