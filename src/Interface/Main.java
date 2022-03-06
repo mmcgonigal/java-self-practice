@@ -1,6 +1,7 @@
 package Interface;
 
 public class Main implements Dog{
+
     public static void main(String[] args) {
         Main main = new Main ();
         main.crying();
