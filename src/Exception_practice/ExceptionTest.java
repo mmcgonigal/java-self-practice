@@ -1,3 +1,5 @@
+package Exception_practice;
+
 public class ExceptionTest {
     public static void main(String[] args) {
 

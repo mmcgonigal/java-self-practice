@@ -1,3 +1,5 @@
+package Exception_practice;
+
 public class Exception_Throw {
 
 

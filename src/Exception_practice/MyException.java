@@ -1,3 +1,5 @@
+package Exception_practice;
+
 public class MyException extends Exception{
     private final int ERR_CODE;
 
