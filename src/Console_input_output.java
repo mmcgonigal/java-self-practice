@@ -12,7 +12,6 @@ public class Console_input_output {
         int i = sc.nextInt();
         System.out.println("the integer entered is  " + i);
 
-
         File file = new File("input.txt");
         try {
             Scanner scan = new Scanner(file);
