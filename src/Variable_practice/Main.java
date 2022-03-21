@@ -3,8 +3,8 @@ package Variable_practice;
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("Card.width =  " + Card.width);
-        System.out.println("Card.height =  " + Card.height);
+        System.out.println("String.Card.width =  " + Card.width);
+        System.out.println("String.Card.height =  " + Card.height);
 
         Card c1 = new Card();
         c1.number = 7;
@@ -17,8 +17,8 @@ public class Main {
         System.out.println("c1 is " +c1.number +" "+ c1.shape + " card ." );
         System.out.println("c1 is " +c2.number +" "+ c2.shape + " card ." );
 
-        c1.width = 50; //  Card.width  = 50 ; is preferred .
-        c1.height = 80; // Card.height = 80 ; is preferred .
+        c1.width = 50; //  String.Card.width  = 50 ; is preferred .
+        c1.height = 80; // String.Card.height = 80 ; is preferred .
 
         // Class variable  -- > will affect all of instances .
 

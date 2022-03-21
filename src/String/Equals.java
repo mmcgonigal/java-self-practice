@@ -1,3 +1,5 @@
+package String;
+
 public class Equals {
 //    hashcode()   --> return hashcode of the instances.
 

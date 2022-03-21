@@ -1,3 +1,5 @@
+package String;
+
 import java.util.Objects;
 
 public class Card {
@@ -35,5 +37,11 @@ public class Card {
         System.out.println(new Card().toString());  // before overriding toString () : nameOfClass@hashcode()
         System.out.println(new Card().toString());  //  before overriding toString () : nameOfClass@hashcode()
         // kind : Spade, number : 1
+
+
+
+
+
+
     }
 }
