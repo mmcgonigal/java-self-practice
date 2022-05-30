@@ -29,29 +29,29 @@ public class Methods_2 {
     //fibonacci  0,1,1,2,3,5,8,13,21.....
 
     public static int fibonacci(int number){
-//        int previousValue = 1;
-//        int currentValue = 1;
-//        int result = -1;
-//        if(number == 1){
-//            return previousValue;
-//        }else if(number == 2){
-//            return currentValue;
-//        }else{
-//            for(int i = 2; i < number ; i++){
-//                result = previousValue + currentValue;
-//                previousValue = currentValue;
-//                currentValue = result ;
-//            }
-//        }
-//        return result ;
-
-        if( number == 1){
-            return 1;
-        }else if (number == 2){
-            return 1;
+        int previousValue = 1;
+        int currentValue = 1;
+        int result = -1;
+        if(number == 1){
+            return previousValue;
+        }else if(number == 2){
+            return currentValue;
         }else{
-            return fibonacci(number -1) + fibonacci(number -2);
+            for(int i = 2; i < number ; i++){
+                result = previousValue + currentValue;
+                previousValue = currentValue;
+                currentValue = result ;
+            }
         }
+        return result ;
+//
+//        if( number == 1){
+//            return 1;
+//        }else if (number == 2){
+//            return 1;
+//        }else{
+//            return fibonacci(number -1) + fibonacci(number -2);
+//        }
     }
 
 
