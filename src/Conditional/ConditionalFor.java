@@ -1,5 +1,7 @@
 package Conditional;
 
+import java.util.Scanner;
+
 public class ConditionalFor {
     public static void main(String[] args) {
         for (int i = 0; i <= 3; i++) {
@@ -23,6 +25,41 @@ public class ConditionalFor {
                 System.out.println(i+" * " + j + " = " +(i*j));
             }
         }
+
+        for (int i = 1; i <= 5; i++) {
+            System.out.println("**********");
+        }
+
+        for (int i = 1; i <= 10; i++) {
+            for (int j = 1; j <= i; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+        int k = 5;
+        while (k != 0) {
+            k--;
+            System.out.println(k +" I can do it!");
+        }
+
+        int total = 0;
+        int j = 0;
+        while (total <= 100) {
+            System.out.println( j + " - " + total);
+            total += ++j;
+        }
+
+        System.out.println("Please type number , (ex:12345)");
+        Scanner scanner = new Scanner(System.in);
+
+        // remainder of 10   will be the last digit.
+        int added = 0;
+        for (int number = scanner.nextInt(); number > 0; number = number / 10) {
+            System.out.println(number%10);
+            added += number %10 ;
+            System.out.println("added = " + added + " , number %10 = " + number%10);
+        }
+        System.out.println("added is " + added);
 
     }
 
