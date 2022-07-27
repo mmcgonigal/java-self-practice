@@ -64,6 +64,14 @@ public class Conditional {
             default:
                 System.out.println("it is winter");
         }
+        int num = 0;
+        for (int i = 1; i <= 20; i++) {
+            System.out.println((int)Math.random()*10);
+            System.out.println(Math.random());
+            System.out.println((int)Math.random()*11);
+        }
+
+
 
 
 
