@@ -61,6 +61,14 @@ public class ConditionalFor {
         }
         System.out.println("added is " + added);
 
+//        int number = scanner.nextInt();
+//        while (number >0){
+//            sum += number%10;
+//            System.out.println("sum " + sum + " ,number % 10 = " + number%10);
+//            number = number /10;
+//        }
+//        System.out.println("sum of each digit = " + sum );
+
     }
 
 }
